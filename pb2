@@ -1,0 +1,505 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prateek Bhajanka | Field CISO Consultant | Cybersecurity Expert</title>
+    <meta name="description" content="Prateek Bhajanka - Field CISO Consultant specializing in corporate cybersecurity strategy, risk assessment, and incident response planning.">
+    <meta name="keywords" content="Field CISO consultant, cybersecurity consulting, incident response planning, corporate security strategy, risk assessment">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        
+        .gradient-bg {
+            background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 100%);
+        }
+        
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        
+        .testimonial-card {
+            transition: all 0.3s ease;
+        }
+        
+        .testimonial-card:hover {
+            transform: scale(1.02);
+        }
+        
+        .nav-link {
+            position: relative;
+        }
+        
+        .nav-link:after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -2px;
+            left: 0;
+            background-color: #2563eb;
+            transition: width 0.3s ease;
+        }
+        
+        .nav-link:hover:after {
+            width: 100%;
+        }
+        
+        .active-nav:after {
+            width: 100%;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0 flex items-center">
+                        <span class="text-blue-800 font-bold text-xl">Prateek Bhajanka</span>
+                        <span class="ml-2 text-sm bg-blue-100 text-blue-800 px-2 py-1 rounded">Field CISO</span>
+                    </div>
+                </div>
+                <div class="hidden md:ml-6 md:flex md:items-center md:space-x-8">
+                    <a href="#home" class="nav-link active-nav text-gray-900 px-3 py-2 text-sm font-medium">Home</a>
+                    <a href="#about" class="nav-link text-gray-500 hover:text-gray-900 px-3 py-2 text-sm font-medium">About</a>
+                    <a href="#services" class="nav-link text-gray-500 hover:text-gray-900 px-3 py-2 text-sm font-medium">Services</a>
+                    <a href="#blog" class="nav-link text-gray-500 hover:text-gray-900 px-3 py-2 text-sm font-medium">Resources</a>
+                    <a href="#contact" class="nav-link text-gray-500 hover:text-gray-900 px-3 py-2 text-sm font-medium">Contact</a>
+                    <a href="#contact" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md text-sm font-medium transition duration-150 ease-in-out">Get Consultation</a>
+                </div>
+                <div class="-mr-2 flex items-center md:hidden">
+                    <button type="button" id="mobile-menu-button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500">
+                        <span class="sr-only">Open main menu</span>
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Mobile menu -->
+        <div class="hidden md:hidden" id="mobile-menu">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="#home" class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 bg-blue-50">Home</a>
+                <a href="#about" class="block px-3 py-2 rounded-md text-base font-medium text-gray-500 hover:text-gray-900 hover:bg-blue-50">About</a>
+                <a href="#services" class="block px-3 py-2 rounded-md text-base font-medium text-gray-500 hover:text-gray-900 hover:bg-blue-50">Services</a>
+                <a href="#blog" class="block px-3 py-2 rounded-md text-base font-medium text-gray-500 hover:text-gray-900 hover:bg-blue-50">Resources</a>
+                <a href="#contact" class="block px-3 py-2 rounded-md text-base font-medium text-gray-500 hover:text-gray-900 hover:bg-blue-50">Contact</a>
+                <a href="#contact" class="block w-full text-center bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md text-base font-medium mt-2">Get Consultation</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="gradient-bg text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-4">Prateek Bhajanka</h1>
+                    <h2 class="text-2xl md:text-3xl font-semibold mb-6">Field CISO Consultant</h2>
+                    <p class="text-lg md:text-xl mb-8 opacity-90 leading-relaxed">Empowering businesses with robust cybersecurity strategies tailored to your unique challenges and regulatory requirements.</p>
+                    <div class="flex flex-wrap gap-4">
+                        <a href="#contact" class="bg-white text-blue-800 hover:bg-gray-100 px-6 py-3 rounded-md font-medium transition duration-150 ease-in-out">Schedule Consultation</a>
+                        <a href="#services" class="border-2 border-white text-white hover:bg-white hover:text-blue-800 px-6 py-3 rounded-md font-medium transition duration-150 ease-in-out">Explore Services</a>
+                    </div>
+                </div>
+                <div class="flex justify-center">
+                    <div class="relative">
+                        <img src="https://images.unsplash.com/photo-1580927752452-89d86da3fa0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80" alt="Prateek Bhajanka - Field CISO Consultant" class="rounded-lg shadow-2xl w-full max-w-md border-4 border-white">
+                        <div class="absolute -bottom-4 -right-4 bg-blue-800 text-white px-4 py-2 rounded-lg shadow-lg">
+                            <i class="fas fa-shield-alt mr-2"></i>20+ Years Experience
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Indicators -->
+    <section class="bg-gray-100 py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+                <div class="p-4">
+                    <div class="text-blue-600 text-3xl font-bold">150+</div>
+                    <div class="text-gray-600">Clients Secured</div>
+                </div>
+                <div class="p-4">
+                    <div class="text-blue-600 text-3xl font-bold">100%</div>
+                    <div class="text-gray-600">Compliance Success</div>
+                </div>
+                <div class="p-4">
+                    <div class="text-blue-600 text-3xl font-bold">24/7</div>
+                    <div class="text-gray-600">Incident Response</div>
+                </div>
+                <div class="p-4">
+                    <div class="text-blue-600 text-3xl font-bold">50+</div>
+                    <div class="text-gray-600">Industry Awards</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">About Prateek Bhajanka</h2>
+                <div class="w-20 h-1 bg-blue-600 mx-auto"></div>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-12">
+                <div class="md:col-span-2">
+                    <h3 class="text-2xl font-semibold text-gray-800 mb-6">Cybersecurity Visionary & Trusted Advisor</h3>
+                    <p class="text-gray-600 mb-6 leading-relaxed">With over two decades of experience in cybersecurity leadership, Prateek Bhajanka has established himself as a preeminent Field CISO consultant, helping organizations navigate the complex landscape of digital threats and regulatory requirements.</p>
+                    <p class="text-gray-600 mb-6 leading-relaxed">His approach combines technical expertise with business acumen, ensuring cybersecurity strategies align with organizational objectives while maintaining robust protection against evolving threats.</p>
+                    
+                    <div class="bg-blue-50 p-6 rounded-lg mb-8">
+                        <h4 class="text-lg font-semibold text-blue-800 mb-3">Professional Philosophy</h4>
+                        <p class="text-gray-700 italic">"Effective cybersecurity isn't about implementing the most tools—it's about creating resilient systems, educated teams, and processes that adapt to both technological and human factors."</p>
+                    </div>
+                </div>
+                
+                <div>
+                    <div class="bg-gray-50 p-6 rounded-lg shadow-sm">
+                        <h4 class="text-lg font-semibold text-gray-800 mb-4 border-b pb-2">Education & Certifications</h4>
+                        <ul class="space-y-4">
+                            <li class="flex items-start">
+                                <i class="fas fa-graduation-cap text-blue-600 mt-1 mr-3"></i>
+                                <span>M.Sc. in Cybersecurity, Stanford University</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-certificate text-blue-600 mt-1 mr-3"></i>
+                                <span>Certified Information Systems Security Professional (CISSP)</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-certificate text-blue-600 mt-1 mr-3"></i>
+                                <span>Certified Information Security Manager (CISM)</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-certificate text-blue-600 mt-1 mr-3"></i>
+                                <span>Certified Ethical Hacker (CEH)</span>
+                            </li>
+                        </ul>
+                        
+                        <h4 class="text-lg font-semibold text-gray-800 mt-8 mb-4 border-b pb-2">Speaking Engagements</h4>
+                        <ul class="space-y-3">
+                            <li class="flex items-start">
+                                <i class="fas fa-microphone text-blue-600 mt-1 mr-3"></i>
+                                <span>Keynote Speaker, RSA Conference 2023</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-microphone text-blue-600 mt-1 mr-3"></i>
+                                <span>Panelist, Black Hat USA 2022</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-microphone text-blue-600 mt-1 mr-3"></i>
+                                <span>Guest Lecturer, MIT Cybersecurity Program</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Specialized Cybersecurity Services</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">Comprehensive solutions tailored to protect your business assets and ensure regulatory compliance</p>
+                <div class="w-20 h-1 bg-blue-600 mx-auto mt-4"></div>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="service-card bg-white p-8 rounded-lg shadow-md transition duration-300 ease-in-out">
+                    <div class="text-blue-600 text-4xl mb-6">
+                        <i class="fas fa-chess-king"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">CISO Advisory Services</h3>
+                    <p class="text-gray-600 mb-6">Fractional or virtual CISO services providing strategic leadership to align security initiatives with business objectives.</p>
+                    <ul class="space-y-2 text-gray-600 mb-6">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Security program development</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Executive risk communication</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Board-level security reporting</span>
+                        </li>
+                    </ul>
+                    <a href="#contact" class="text-blue-600 font-medium inline-flex items-center">Learn more <i class="fas fa-arrow-right ml-2"></i></a>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="service-card bg-white p-8 rounded-lg shadow-md transition duration-300 ease-in-out">
+                    <div class="text-blue-600 text-4xl mb-6">
+                        <i class="fas fa-shield-virus"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">Risk Assessment & Management</h3>
+                    <p class="text-gray-600 mb-6">Comprehensive evaluation of your security posture with actionable recommendations to mitigate identified risks.</p>
+                    <ul class="space-y-2 text-gray-600 mb-6">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Threat modeling & vulnerability analysis</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Regulatory compliance mapping</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Third-party vendor risk assessment</span>
+                        </li>
+                    </ul>
+                    <a href="#contact" class="text-blue-600 font-medium inline-flex items-center">Learn more <i class="fas fa-arrow-right ml-2"></i></a>
+                </div>
+                
+                <!-- Service 3 -->
+                <div class="service-card bg-white p-8 rounded-lg shadow-md transition duration-300 ease-in-out">
+                    <div class="text-blue-600 text-4xl mb-6">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">Incident Response Planning</h3>
+                    <p class="text-gray-600 mb-6">Prepare your organization to effectively detect, respond to, and recover from security incidents.</p>
+                    <ul class="space-y-2 text-gray-600 mb-6">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Incident response playbook development</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Tabletop exercises & simulations</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Post-incident review & improvement</span>
+                        </li>
+                    </ul>
+                    <a href="#contact" class="text-blue-600 font-medium inline-flex items-center">Learn more <i class="fas fa-arrow-right ml-2"></i></a>
+                </div>
+                
+                <!-- Service 4 -->
+                <div class="service-card bg-white p-8 rounded-lg shadow-md transition duration-300 ease-in-out">
+                    <div class="text-blue-600 text-4xl mb-6">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">Cloud Security Architecture</h3>
+                    <p class="text-gray-600 mb-6">Secure your cloud migration and optimize existing cloud environments with proven security frameworks.</p>
+                    <ul class="space-y-2 text-gray-600 mb-6">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Cloud security posture management</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Identity & access management design</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Data protection & encryption strategy</span>
+                        </li>
+                    </ul>
+                    <a href="#contact" class="text-blue-600 font-medium inline-flex items-center">Learn more <i class="fas fa-arrow-right ml-2"></i></a>
+                </div>
+                
+                <!-- Service 5 -->
+                <div class="service-card bg-white p-8 rounded-lg shadow-md transition duration-300 ease-in-out">
+                    <div class="text-blue-600 text-4xl mb-6">
+                        <i class="fas fa-user-shield"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">Security Awareness Training</h3>
+                    <p class="text-gray-600 mb-6">Transform your employees from security risks to active defenders with engaging, effective training.</p>
+                    <ul class="space-y-2 text-gray-600 mb-6">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Phishing simulation campaigns</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Role-based security training</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Metrics-driven program evaluation</span>
+                        </li>
+                    </ul>
+                    <a href="#contact" class="text-blue-600 font-medium inline-flex items-center">Learn more <i class="fas fa-arrow-right ml-2"></i></a>
+                </div>
+                
+                <!-- Service 6 -->
+                <div class="service-card bg-white p-8 rounded-lg shadow-md transition duration-300 ease-in-out">
+                    <div class="text-blue-600 text-4xl mb-6">
+                        <i class="fas fa-file-contract"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">Compliance & Governance</h3>
+                    <p class="text-gray-600 mb-6">Navigate complex regulatory requirements with confidence through comprehensive compliance programs.</p>
+                    <ul class="space-y-2 text-gray-600 mb-6">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>GDPR, HIPAA, CCPA readiness</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>ISO 27001 implementation</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-500 mt-1 mr-2"></i>
+                            <span>Policy & procedure development</span>
+                        </li>
+                    </ul>
+                    <a href="#contact" class="text-blue-600 font-medium inline-flex items-center">Learn more <i class="fas fa-arrow-right ml-2"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-20 bg-blue-800 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold mb-4">Trusted by Industry Leaders</h2>
+                <div class="w-20 h-1 bg-white mx-auto"></div>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="testimonial-card bg-blue-700 p-8 rounded-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 text-xl mr-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="italic mb-6">"Prateek's strategic guidance transformed our security posture. His ability to translate complex security concepts into business terms was invaluable to our executive team."</p>
+                    <div class="flex items-center">
+                        <div class="mr-4">
+                            <div class="w-12 h-12 rounded-full bg-blue-600 flex items-center justify-center">
+                                <span class="text-lg font-bold">JD</span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="font-bold">Jane Doe</div>
+                            <div class="text-blue-200 text-sm">CIO, Fortune 500 Technology Firm</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card bg-blue-700 p-8 rounded-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 text-xl mr-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="italic mb-6">"We engaged Prateek after a significant breach. His incident response team not only contained the situation but implemented controls that prevented future occurrences."</p>
+                    <div class="flex items-center">
+                        <div class="mr-4">
+                            <div class="w-12 h-12 rounded-full bg-blue-600 flex items-center justify-center">
+                                <span class="text-lg font-bold">JS</span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="font-bold">John Smith</div>
+                            <div class="text-blue-200 text-sm">CTO, Global Financial Services</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card bg-blue-700 p-8 rounded-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 text-xl mr-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="italic mb-6">"As a startup, we needed cost-effective security that could scale. Prateek designed a program that met our budget while satisfying our enterprise customers' requirements."</p>
+                    <div class="flex items-center">
+                        <div class="mr-4">
+                            <div class="w-12 h-12 rounded-full bg-blue-600 flex items-center justify-center">
+                                <span class="text-lg font-bold">AS</span>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="font-bold">Alex Johnson</div>
+                            <div class="text-blue-200 text-sm">CEO, HealthTech Startup</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog/Resources Section -->
+    <section id="blog" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Cybersecurity Insights & Resources</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">Stay informed with the latest trends, threats, and best practices</p>
+                <div class="w-20 h-1 bg-blue-600 mx-auto mt-4"></div>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Article 1 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden border border-gray-100 hover:shadow-lg transition duration-300 ease-in-out">
+                    <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="AI in Cybersecurity" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex items-center text-sm text-gray-500 mb-2">
+                            <span>June 15, 2023</span>
+                            <span class="mx-2">•</span>
+                            <span>8 min read</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">The Double-Edged Sword: AI in Cybersecurity</h3>
+                        <p class="text-gray-600 mb-4">Exploring how artificial intelligence is both transforming defense mechanisms and empowering sophisticated cyber attacks.</p>
+                        <a href="#" class="text-blue-600 font-medium inline-flex items-center">Read more <i class="fas fa-arrow-right ml-2"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Article 2 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden border border-gray-100 hover:shadow-lg transition duration-300 ease-in-out">
+                    <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Cloud Security" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex items-center text-sm text-gray-500 mb-2">
+                            <span>May 28, 2023</span>
+                            <span class="mx-2">•</span>
+                            <span>6 min read</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Cloud Security Misconfigurations: The Silent Threat</h3>
+                        <p class="text-gray-600 mb-4">How simple configuration errors in cloud environments are leading to major breaches and how to prevent them.</p>
+                        <a href="#" class="text-blue-600 font-medium inline-flex items-center">Read more <i class="fas fa-arrow-right ml-2"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Article 3 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden border border-gray-100 hover:shadow-lg transition duration-300 ease-in-out">
+                    <img src="https://images.unsplash.com/photo-1563206767-5b18f218e8df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80" alt="Regulatory Compliance" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <div class="flex items-center text-sm text-gray-500 mb-2">
+                            <span>April 10, 2023</span>
+                            <span class="mx-2">•</span>
+                            <span>10 min read</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-800 mb-3">Navigating the 2023 Regulatory Landscape: A CISO's Guide</h3>
+                        <p class="text-gray-600 mb-4">Key updates to global data protection regulations and practical steps to ensure continuous compliance.</p
