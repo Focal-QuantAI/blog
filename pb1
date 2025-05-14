@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Field CISO Advisory Services | Cybersecurity Leadership Solutions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+        
+        body {
+            font-family: 'Montserrat', sans-serif;
+            scroll-behavior: smooth;
+        }
+        
+        .gradient-bg {
+            background: linear-gradient(135deg, #1a237e 0%, #0d47a1 50%, #000000 100%);
+        }
+        
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        
+        .card-hover:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        
+        .section-divider {
+            height: 100px;
+            background: linear-gradient(to bottom right, transparent 49%, #1a237e 50%), linear-gradient(to top right, #1a237e 49%, transparent 50%);
+        }
+        
+        .floating {
+            animation: floating 3s ease-in-out infinite;
+        }
+        
+        @keyframes floating {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-15px); }
+            100% { transform: translateY(0px); }
+        }
+        
+        .fade-in {
+            animation: fadeIn 1s ease-in;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        .slide-in-left {
+            animation: slideInLeft 1s ease-out;
+        }
+        
+        @keyframes slideInLeft {
+            from { transform: translateX(-100px); opacity: 0; }
+            to { transform: translateX(0); opacity: 1; }
+        }
+        
+        .slide-in-right {
+            animation: slideInRight 1s ease-out;
+        }
+        
+        @keyframes slideInRight {
+            from { transform: translateX(100px); opacity: 0; }
+            to { transform: translateX(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="gradient-bg text-white sticky top-0 z-50 shadow-lg">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center">
+                    <div class="mr-2">
+                        <i class="fas fa-shield-alt text-2xl text-blue-300"></i>
+                    </div>
+                    <span class="font-semibold text-xl tracking-tight">Field CISO Advisory</span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#home" class="text-blue-200 hover:text-white transition">Home</a>
+                    <a href="#services" class="text-blue-200 hover:text-white transition">Services</a>
+                    <a href="#about" class="text-blue-200 hover:text-white transition">About</a>
+                    <a href="#benefits" class="text-blue-200 hover:text-white transition">Benefits</a>
+                    <a href="#contact" class="text-blue-200 hover:text-white transition">Contact</a>
+                </div>
+                <div class="md:hidden">
+                    <button class="mobile-menu-button">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu hidden gradient-bg text-white py-4 px-6">
+        <a href="#home" class="block py-2 hover:text-blue-200 transition">Home</a>
+        <a href="#services" class="block py-2 hover:text-blue-200 transition">Services</a>
+        <a href="#about" class="block py-2 hover:text-blue-200 transition">About</a>
+        <a href="#benefits" class="block py-2 hover:text-blue-200 transition">Benefits</a>
+        <a href="#contact" class="block py-2 hover:text-blue-200 transition">Contact</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="gradient-bg text-white py-20 md:py-32 fade-in">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-10 md:mb-0 slide-in-left">
+                <h1 class="text-4xl md:text-5xl font-bold leading-tight mb-6">Elevate Your Cybersecurity Leadership</h1>
+                <p class="text-xl mb-8 text-blue-100">Expert CISO-as-a-Service solutions tailored to protect your business while aligning with your strategic objectives.</p>
+                <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                    <a href="#contact" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-lg transition duration-300 text-center">Get Started</a>
+                    <a href="#services" class="bg-transparent hover:bg-blue-800 text-blue-300 font-semibold hover:text-white py-3 px-6 border border-blue-300 hover:border-transparent rounded-lg transition duration-300 text-center">Our Services</a>
+                </div>
+            </div>
+            <div class="md:w-1/2 flex justify-center slide-in-right">
+                <div class="relative">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Cybersecurity" class="rounded-lg shadow-2xl w-full max-w-md floating">
+                    <div class="absolute -bottom-5 -right-5 bg-blue-800 p-4 rounded-lg shadow-lg hidden md:block">
+                        <p class="text-white font-bold">Trusted by 100+ Enterprises</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Badges -->
+    <div class="bg-gray-100 py-8">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-wrap justify-center items-center gap-8 md:gap-16">
+                <div class="text-center">
+                    <i class="fas fa-lock text-4xl text-blue-600 mb-2"></i>
+                    <p class="font-bold text-gray-800">ISO 27001 Certified</p>
+                </div>
+                <div class="text-center">
+                    <i class="fas fa-shield-virus text-4xl text-blue-600 mb-2"></i>
+                    <p class="font-bold text-gray-800">GDPR Compliant</p>
+                </div>
+                <div class="text-center">
+                    <i class="fas fa-certificate text-4xl text-blue-600 mb-2"></i>
+                    <p class="font-bold text-gray-800">PCI DSS Verified</p>
+                </div>
+                <div class="text-center">
+                    <i class="fas fa-user-shield text-4xl text-blue-600 mb-2"></i>
+                    <p class="font-bold text-gray-800">vCISO Certified</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-white">
+        <div class="section-divider"></div>
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Our Comprehensive CISO Services</h2>
+                <div class="w-20 h-1 bg-blue-600 mx-auto mb-6"></div>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">Tailored cybersecurity leadership solutions designed to meet your organization's unique needs and challenges.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service Card 1 -->
+                <div class="bg-gray-50 rounded-lg p-8 shadow-md card-hover">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-chess-king text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Strategic Security Planning</h3>
+                    <p class="text-gray-600">Develop comprehensive cybersecurity strategies aligned with your business objectives and risk appetite.</p>
+                </div>
+                
+                <!-- Service Card 2 -->
+                <div class="bg-gray-50 rounded-lg p-8 shadow-md card-hover">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-search-dollar text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Risk Management Framework</h3>
+                    <p class="text-gray-600">Implement robust risk assessment methodologies and mitigation strategies to protect critical assets.</p>
+                </div>
+                
+                <!-- Service Card 3 -->
+                <div class="bg-gray-50 rounded-lg p-8 shadow-md card-hover">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-balance-scale text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Regulatory Compliance</h3>
+                    <p class="text-gray-600">Ensure adherence to GDPR, HIPAA, PCI DSS, and other industry-specific compliance requirements.</p>
+                </div>
+                
+                <!-- Service Card 4 -->
+                <div class="bg-gray-50 rounded-lg p-8 shadow-md card-hover">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-bug text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Vulnerability Management</h3>
+                    <p class="text-gray-600">Conduct regular assessments, penetration testing, and vulnerability remediation programs.</p>
+                </div>
+                
+                <!-- Service Card 5 -->
+                <div class="bg-gray-50 rounded-lg p-8 shadow-md card-hover">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-fire-extinguisher text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Incident Response</h3>
+                    <p class="text-gray-600">Develop and manage comprehensive incident response plans with rapid recovery capabilities.</p>
+                </div>
+                
+                <!-- Service Card 6 -->
+                <div class="bg-gray-50 rounded-lg p-8 shadow-md card-hover">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-chalkboard-teacher text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Security Awareness</h3>
+                    <p class="text-gray-600">Implement engaging training programs to transform employees into your first line of defense.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 gradient-bg text-white">
+        <div class="section-divider"></div>
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-6">About Field CISO Advisory</h2>
+                    <div class="w-20 h-1 bg-blue-400 mb-6"></div>
+                    <p class="text-lg mb-6 text-blue-100">Founded by Prateek Bhajanka, Field CISO Advisory Services Pvt Ltd brings decades of cybersecurity leadership experience to organizations that need strategic security guidance without the overhead of a full-time CISO.</p>
+                    <p class="text-lg mb-6 text-blue-100">Our "Field CISO" approach means we don't just advise—we embed ourselves in your organization to understand your unique challenges and deliver practical, actionable security leadership.</p>
+                    <p class="text-lg text-blue-100">We bridge the gap between technical security teams and executive leadership, translating complex security concepts into business terms that drive informed decision-making.</p>
+                </div>
+                <div class="md:w-1/2 md:pl-12">
+                    <div class="bg-blue-900 bg-opacity-50 p-8 rounded-lg">
+                        <h3 class="text-2xl font-bold mb-4">Our Approach</h3>
+                        <div class="space-y-4">
+                            <div class="flex items-start">
+                                <div class="text-blue-300 mr-4 mt-1">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <p class="text-blue-100">Deep understanding of your business context and security requirements</p>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="text-blue-300 mr-4 mt-1">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <p class="text-blue-100">Hands-on engagement with your teams and processes</p>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="text-blue-300 mr-4 mt-1">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <p class="text-blue-100">Customized solutions, not one-size-fits-all templates</p>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="text-blue-300 mr-4 mt-1">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <p class="text-blue-100">Measurable improvements in security posture and risk reduction</p>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="text-blue-300 mr-4 mt-1">
+                                    <i class="fas fa-check-circle"></i>
+                                </div>
+                                <p class="text-blue-100">Clear communication to all stakeholders, from technical teams to board members</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="py-20 bg-white">
+        <div class="section-divider"></div>
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Why Choose CISO-as-a-Service?</h2>
+                <div class="w-20 h-1 bg-blue-600 mx-auto mb-6"></div>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">The strategic advantages of outsourced cybersecurity leadership</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Benefit 1 -->
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md card-hover">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-dollar-sign text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Cost Efficiency</h3>
+                    <p class="text-gray-600">Access top-tier security expertise at a fraction of the cost of a full-time CISO, with no recruitment or retention challenges.</p>
+                </div>
+                
+                <!-- Benefit 2 -->
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md card-hover">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-random text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Flexibility</h3>
+                    <p class="text-gray-600">Scale services up or down based on your evolving needs, from strategic planning to crisis management.</p>
+                </div>
+                
+                <!-- Benefit 3 -->
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md card-hover">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-eye text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Objective Perspective</h3>
+                    <p class="text-gray-600">Gain unbiased insights into your security posture from experienced professionals with diverse industry exposure.</p>
+                </div>
+                
+                <!-- Benefit 4 -->
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md card-hover">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-briefcase text-4xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Focus on Business</h3>
+                    <p class="text-gray-600">Free your internal teams to concentrate on core business operations while we handle security leadership.</p>
+                </div>
+            </div>
+            
+            <div class="mt-16 bg-blue-50 rounded-xl p-8 md:p-12">
+                <div class="flex flex-col md:flex-row items-center">
+                    <div class="md:w-2/3 mb-8 md:mb-0 md:pr-8">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-4">Ready to Transform Your Security Posture?</h3>
+                        <p class="text-gray-600 mb-6">Our CISO-as-a-Service model delivers the expertise you need, when you need it, without the overhead of a full-time executive.</p>
+                        <a href="#contact" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300 inline-block">Schedule Consultation</a>
+                    </div>
+                    <div class="md:w-1/3 flex justify-center">
+                        <div class="bg-blue-100 p-6 rounded-full">
+                            <i class="fas fa-headset text-6xl text-blue-600"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-20 gradient-bg text-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">What Our Clients Say</h2>
+                <div class="w-20 h-1 bg-blue-400 mx-auto mb-6"></div>
+                <p class="text-xl text-blue-100 max-w-3xl mx-auto">Trusted by organizations across industries to provide strategic security leadership</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-blue-900 bg-opacity-50 p-8 rounded-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 mr-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-blue-100 mb-6">"Field CISO Advisory transformed our security program from reactive to strategic. Their vCISO helped us establish a risk-based approach that aligned perfectly with our business goals."</p>
+                    <div class="flex items-center">
+                        <div class="bg-blue-700 rounded-full w-12 h-12 flex items-center justify-center mr-4">
+                            <span class="font-bold">JD</span>
+                        </div>
+                        <div>
+                            <h4 class="font-bold">John D.</h4>
+                            <p class="text-blue-300 text-sm">CTO, Financial Services</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="bg-blue-900 bg-opacity-50 p-8 rounded-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 mr-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-blue-100 mb-6">"As a mid-sized company, we couldn't justify a full-time CISO. Field CISO's fractional model gave us access to top-tier expertise exactly when we needed it, at a reasonable cost."</p>
+                    <div class="flex items-center">
+                        <div class="bg-blue-700 rounded-full w-12 h-12 flex items-center justify-center mr-4">
+                            <span class="font-bold">SM</span>
+                        </div>
+                        <div>
+                            <h4 class="font-bold">Sarah M.</h4>
+                            <p class="text-blue-300 text-sm">COO, Healthcare Tech</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="bg-blue-900 bg-opacity-50 p-8 rounded-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 mr-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                    <p class="text-blue-100 mb-6">"Their ability to communicate security risks to our board in business terms was invaluable. We went from struggling with security to having a clear roadmap and executive buy-in."</p>
+                    <div class="flex items-center">
+                        <div class="bg-blue-700 rounded-full w-12 h-12 flex items-center justify-center mr-4">
+                            <span class="font-bold">RK</span>
+                        </div>
+                        <div>
+                            <h4 class="font-bold">Robert K.</h4>
+                            <p class="text-blue-300 text-sm">CEO, E-commerce</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-white">
+        <div class="section-divider"></div>
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row">
+                <div class="md:w-1/2 mb-10 md:mb-0 md:pr-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6">Get in Touch</h2>
+                    <div class="w-20 h-1 bg-blue-600 mb-6"></div>
+                    <p class="text-gray-600 mb-8 text-lg">Ready to discuss how our CISO-as-a-Service can strengthen your security posture? Contact us for a confidential consultation.</p>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div class="text-blue-600 mr-4 mt-1">
+                                <i class="fas fa-map-marker-alt text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-800">Headquarters</h4>
+                                <p class="text-gray-600">123 Security Plaza, Cyber District<br>Bangalore, India 560001</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="text-blue-600 mr-4 mt-1">
+                                <i class="fas fa-phone-alt text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-800">Phone</h4>
+                                <p class="text-gray-600">+91 80 1234 5678</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="text-blue-600 mr-4 mt-1">
+                                <i class="fas fa-envelope text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-800">Email</h4>
+                                <p class="text-gray-600">info@fieldciso.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="md:w-1/2">
+                    <div class="bg-gray-50 rounded-xl p-8 shadow-md">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-6">Send Us a Message</h3>
+                        <form>
+                            <div class="mb-6">
+                                <label for="name" class="block text-gray-700 font-medium mb-2">Name</label>
+                                <input type="text" id="name" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                            </div>
+                            
+                            <div class="mb-6">
+                                <label for="email" class="block text-gray-700 font-medium mb-2">Email</label>
+                                <input type="email" id="email" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                            </div>
+                            
+                            <div class="mb-6">
+                                <label for="company" class="block text-gray-700 font-medium mb-2">Company</label>
+                                <input type="text" id="company" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                            </div>
+                            
+                            <div class="mb-6">
+                                <label for="message" class="block text-gray-700 font-medium mb-2">Message</label>
+                                <textarea id="message" rows="4" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"></textarea>
+                            </div>
+                            
+                            <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded-lg transition duration-300">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Frequently Asked Questions</h2>
+                <div class="w-20 h-1 bg-blue-600 mx-auto mb-6"></div>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">Answers to common questions about our CISO-as-a-Service offerings</p>
+            </div>
+            
+            <div class="max-w-4xl mx-auto">
+                <!-- FAQ Item 1 -->
+                <div class="mb-6 border-b border-gray-200 pb-6">
+                    <button class="faq-question flex justify-between items-center w-full text-left font-bold text-gray-800 text-lg focus:outline-none">
+                        <span>What's the difference between CISOaaS and vCISO?</span>
+                        <i class="fas fa-chevron-down text-blue-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer mt-4 text-gray-600 hidden">
+                        <p>While often used interchangeably, there are subtle differences. CISO as a Service (CISOaaS) typically refers to a more comprehensive, outsourced security leadership solution that may include technology and managed services. Virtual CISO (vCISO) usually describes a fractional or part-time security executive who provides strategic guidance. At Field CISO Advisory, we blend the best of both models to meet your specific needs.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 2 -->
+                <div class="mb-6 border-b border-gray-200 pb-6">
+                    <button class="faq-question flex justify-between items-center w-full text-left font-bold text-gray-800 text-lg focus:outline-none">
+                        <span>How quickly can you onboard as our vCISO?</span>
+                        <i class="fas fa-chevron-down text-blue-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer mt-4 text-gray-600 hidden">
+                        <p>We can typically begin engagements within 2-3 weeks of contract signing. Our rapid onboarding process includes a comprehensive discovery phase to understand your business, current security posture, and immediate priorities. For urgent situations, we can expedite this timeline to provide immediate interim leadership.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 3 -->
+                <div class="mb-6 border-b border-gray-200 pb-6">
+                    <button class="faq-question flex justify-between items-center w-full text-left font-bold text-gray-800 text-lg focus:outline-none">
+                        <span>What size companies benefit most from your services?</span>
+                        <i class="fas fa-chevron-down text-blue-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer mt-4 text-gray-600 hidden">
+                        <p>Our services are ideal for mid-market companies (50-2,000 employees) that need strategic security leadership but aren't ready for or don't require a full-time CISO. We also serve larger enterprises needing interim coverage or specialized expertise, and smaller companies preparing for growth or compliance requirements.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 4 -->
+                <div class="mb-6 border-b border-gray-200 pb-6">
+                    <button class="faq-question flex justify-between items-center w-full text-left font-bold text-gray-800 text-lg focus:outline-none">
+                        <span>How do you measure the success of your engagements?</span>
+                        <i class="fas fa-chevron-down text-blue-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer mt-4 text-gray-600 hidden">
+                        <p>We establish clear KPIs at the start of each engagement, which typically include: improved security maturity scores, reduced time to detect/respond to incidents, compliance audit results, employee security awareness metrics, and risk reduction metrics. We provide quarterly reports showing progress against these benchmarks.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 5 -->
+                <div class="mb-6 border-b border-gray-200 pb-6">
+                    <button class="faq-question flex justify-between items-center w-full text-left font-bold text-gray-800 text-lg focus:outline-none">
+                        <span>Can you help us prepare for specific compliance requirements?</span>
+                        <i class="fas fa-chevron-down text-blue-600 transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer mt-4 text-gray-600 hidden">
+                        <p>Absolutely. Our team has deep experience with global compliance frameworks including GDPR, HIPAA, PCI DSS, SOC 2, ISO 27001, and industry-specific regulations. We'll assess your current state, identify gaps, and create a prioritized roadmap to achieve and maintain compliance efficiently.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 gradient-bg">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">Ready to Elevate Your Security Leadership?</h2>
+            <p class="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">Contact us today to discuss how our CISO-as-a-Service can provide the strategic security leadership your organization needs.</p>
+            <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+                <a href="#contact" class="bg-white text-blue-800 hover:bg-gray-100 font-bold py-3 px-8 rounded-lg transition duration-300 inline-block">Get Started</a>
+                <a href="tel:+918012345678" class="bg-transparent border-2 border-white text-white hover:bg-white hover:text-blue-800 font-bold py-3 px-8 rounded-lg transition duration-300 inline-block">
+                    <i class="fas fa-phone-alt mr-2"></i> Call Us
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between">
+                <div class="mb-8 md:mb-0">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-blue-600 rounded-full w-10 h-10 flex items-center justify-center mr-3">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <span class="text-xl font-bold">Field CISO Advisory</span>
+                    </div>
+                    <p class="text-gray-400 max-w-xs">Strategic cybersecurity leadership for organizations that value security but need flexible, cost-effective solutions.</p>
+                </div>
+                
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-8">
+                    <div>
+                        <h4 class="text-lg font-bold mb-4">Services</h4>
+                        <ul class="space-y-2">
+                            <li><a href="#" class="text-gray-400 hover:text-white transition">vCISO Services</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-white transition">CISO-as-a-Service</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-white transition">Security Strategy</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-white transition">Risk Management</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-white transition">Compliance Advisory</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h4 class="text-lg font-bold mb-4">Company</h4>
+                        <ul class="space-y-2">
+                            <li><a href="#" class="text-gray-400 hover:text-white transition">About Us</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-white transition">Leadership</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-white transition">Careers</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-white transition">Blog</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-white transition">Contact</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h4 class="text-lg font-bold mb-4">Legal</h4>
+                        <ul class="space-y-2">
+                            <li><a href="#" class="text-gray-400 hover:text-white transition">Privacy Policy</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-white transition">Terms of Service</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-white transition">Cookie Policy</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-white transition">GDPR Compliance</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 mb-4 md:mb-0">© 2023 Field CISO Advisory Services Pvt Ltd. All rights reserved.</p>
+                <div class="flex space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-linkedin-in text-xl"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-twitter text-xl"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-facebook-f text-xl"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="fixed bottom-8 right-8 bg-blue-600 text-white w-12 h-12 rounded-full shadow-lg flex items-center justify-center transition-all duration-300 opacity-0 invisible hover:bg-blue-700">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Back to top button
+        const backToTopButton = document.getElementById('back-to-top');
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTopButton.classList.remove('opacity-0', 'invisible');
+                backToTopButton.classList.add('opacity-100', 'visible');
+            } else {
+                backToTopButton.classList.remove('opacity-100', 'visible');
+                backToTopButton.classList.add('opacity-0', 'invisible');
+            }
+        });
+
+        backToTopButton.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // FAQ toggle functionality
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const answer = question.nextElementSibling;
+                const icon = question.querySelector('i');
+                
+                answer.classList.toggle('hidden');
+                icon.classList.toggle('transform');
+                icon.classList.toggle('rotate-180');
+            });
+        });
+
+        // Animation on scroll
+        const observerOptions = {
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-fadeInUp');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.animate-on-scroll').forEach(element => {
+            observer.observe(element);
+        });
+    </script>
+</body>
+</html>
